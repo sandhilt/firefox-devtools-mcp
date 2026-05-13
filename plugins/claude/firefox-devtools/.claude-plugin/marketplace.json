@@ -1,0 +1,23 @@
+{
+  "name": "firefox-devtools-plugins",
+  "version": "0.6.0",
+  "description": "Firefox browser automation and debugging plugins via WebDriver BiDi.",
+  "repository": "https://github.com/mozilla/firefox-devtools-mcp",
+  "owner": {
+    "name": "Mozilla",
+    "url": "https://github.com/mozilla/firefox-devtools-mcp"
+  },
+  "plugins": [
+    {
+      "name": "firefox-devtools",
+      "source": "./",
+      "description": "Firefox browser automation via WebDriver BiDi. Automate Firefox for testing, scraping, form filling, screenshots, and debugging.",
+      "skills": [
+        {
+          "name": "browser-automation",
+          "description": "Automates Firefox for browser testing, web scraping, form filling, screenshots, and debugging console/network activity. Activates when the user asks about E2E testing, scraping, form automation, or debugging web applications."
+        }
+      ]
+    }
+  ]
+}
